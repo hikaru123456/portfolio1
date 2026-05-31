@@ -1,0 +1,532 @@
+/********** TEMPLATE CSS **********/
+
+:root {
+    --primary: #000000 !important;
+    --secondary: #f6f6f6 !important;
+    --light: #F2F2F2;
+    --dark: #111111;
+}
+
+/* =========================
+   GLOBAL
+========================= */
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+a {
+    color: #000000 !important;
+}
+
+a:hover {
+    color: #000000 !important;
+}
+
+.text-primary {
+    color: #000000 !important;
+}
+
+.bg-primary {
+    background-color: #000000 !important;
+}
+
+.bg-secondary {
+    background-color: #ffffff !important;
+}
+
+/* =========================
+   BACK TO TOP
+========================= */
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+    background-color: #000000 !important;
+    border-color: #ffffff !important;
+}
+
+/* =========================
+   SPINNER
+========================= */
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #000000 !important;
+    border-color: #ffffff !important;
+    color: #fff !important;
+}
+
+.btn-secondary {
+    background-color: #fdfdfd !important;
+    border-color: #ffffff !important;
+    color: #fff !important;
+}
+
+.btn-secondary:hover {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    color: #fff !important;
+}
+
+.btn-outline-light:hover {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+    height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: var(--dark);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #000000 !important;
+}
+
+.navbar-light.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+/* =========================
+   HEADER / CAROUSEL
+========================= */
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: transparent !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+.carousel-caption h2{
+    text-transform: uppercase;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    filter: grayscale(100%);
+}
+
+.carousel-item img {
+    filter: brightness(1.1);
+}
+
+@media (max-width: 768px) {
+
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* =========================
+   PAGE HEADER
+========================= */
+
+.page-header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-inner {
+    background: rgba(0, 0, 0, .7);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--light);
+}
+
+/* =========================
+   FACT SECTION
+========================= */
+
+.fact {
+    background:
+        linear-gradient(rgba(240, 240, 240, 0.7), rgba(0, 0, 0, .7)),
+        url('img/header.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* =========================
+   SERVICE SECTION
+========================= */
+
+.service .nav .nav-link {
+    background: #b7b6b6 !important;
+    transition: .5s;
+}
+
+.service .nav .nav-link.active {
+    background: #1f1f1f !important;
+}
+
+.service .nav .nav-link h4,
+.service .nav .nav-link.active h4 {
+    color: #ffffff !important;
+}
+
+/* Service Icons */
+
+.service .fa,
+.service .fas,
+.service .fab,
+.service i,
+.service .nav-link.active i {
+    color: #ffffff !important;
+}
+
+/* Pills */
+
+.nav-pills .nav-link.active {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+/* =========================
+   BOOKING
+========================= */
+
+.booking {
+    background:
+        linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url('img/carousel-bg-2.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* =========================
+   DATETIME PICKER
+========================= */
+
+.bootstrap-datetimepicker-widget.bottom {
+    top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+    border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+    font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+    background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+    border-bottom-color: var(--primary);
+}
+
+/* =========================
+   TEAM
+========================= */
+
+.team-item .team-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    transform: scale(0);
+    transition: .5s;
+}
+
+.team-item:hover .team-overlay {
+    transform: scale(1);
+}
+
+.team-item .team-overlay .btn {
+    color: var(--primary);
+    background: #FFFFFF;
+}
+
+.team-item .team-overlay .btn:hover {
+    color: #FFFFFF;
+    background: var(--secondary);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url('img/carousel-bg-1.jpg') center center / cover no-repeat;
+    background-size: cover;
+    background-color: #000000 !important;
+}
+
+.footer a,
+.footer a i,
+.footer .fab,
+.footer .fas,
+.footer .fa {
+    color: #ffffff !important;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF !important;
+    border-radius: 35px;
+    background: transparent !important;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    background: #ffffff !important;
+}
+
+.footer .btn.btn-social:hover i {
+    color: #000000 !important;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .btn-primary {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+/* =========================
+   ICONS
+========================= */
+
+.fa,
+.fas,
+.fab,
+.bi {
+    color: inherit !important;
+}
+
+/* Service / Fact Icons */
+
+.fa-certificate,
+.fa-users-cog,
+.fa-tools,
+.fa-pen-nib,
+.fa-keyboard,
+.fa-check,
+.fa-users,
+.fa-tasks {
+    color: #000000 !important;
+}
+
+.service .fa-check {
+    color: #000000 !important;
+}
+/* Topbar Icons */
+
+.topbar i,
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-clock {
+    color: #000000 !important;
+}
+
+/* =========================
+   CERTIFICATES
+========================= */
+
+.certificate-link:hover::after {
+    color: #000000 !important;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.form-control:focus {
+    border-color: #000000 !important;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25) !important;
+}
+

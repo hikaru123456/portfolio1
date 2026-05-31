@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Erika's Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo1.png" sizes="16x16" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Sto. Tomas Batangas</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Consultation | Mon - Sat : 08:00 AM - 06:00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+63 9053138528</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/share/18WZeeAoCx/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.linkedin.com/in/erika-joyce-baybay-1b4a9a367?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.instagram.com/_eri.joyce?igsh=dGFuMWNiZTl5OXZ6"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-code me-3"></i>Erika Joyce</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#services" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="contact.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Contact Me<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/slider1.png" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                  
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/slider2.png" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-white mb-1 animated slideInDown">
+    Delivering a versatile range of commission-based services with a strong focus on quality, accuracy, and client-centered results.
+</h6>
+
+<h2 class="display-3 text-white mb-4 pb-2 animated slideInDown">
+    CONSULT NOW!
+</h2>
+                                   
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="d-flex py-4 px-4">
+                    <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+                    <div class="ps-4">
+                        <h5 class="mb-3">Commission-Based Services</h5>
+                        <p>I provide efficient, cost-effective software development aligned with project requirements.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="d-flex bg-light py-4 px-4">
+                    <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+                    <div class="ps-4">
+                        <h5 class="mb-3">Experienced Developer</h5>
+                        <p>I deliver scalable and well-structured code following best practices and standards.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="d-flex py-4 px-4">
+                    <i class="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
+                    <div class="ps-4">
+                        <h5 class="mb-3">Development Tools & Technologies</h5>
+                        <p>I use up-to-date frameworks and tools to build optimized, industry-standard software solutions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="d-flex bg-light py-4 px-4">
+                    <i class="fa fa-pen-nib fa-3x text-primary flex-shrink-0"></i>
+                    <div class="ps-4">
+                        <h5 class="mb-3">Thesis Editing and Revision Support</h5>
+                        <p>I provide thesis editing, proofreading, and content improvement to ensure clear academic standards compliance.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+<!-- About Start -->
+  <div id="about" class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="position-absolute img-fluid w-100 h-100" src="img/laptopbg.png" style="object-fit: cover;" alt="">
+                    <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .01);">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 pt-4">
+                <h6 class="text-primary text-uppercase">// About Me //</h6>
+                <h1 class="mb-4"><span class="text-primary">Erika Joyce</span> Is Here To Serve You</h1>
+                <p class="mb-4">I emphasize efficient management, clear communication, and professional development while providing high-quality, cost-effective software services.</p>
+                <div class="row g-4 mb-3 pb-3">
+                    <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex">
+                            <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                <span class="fw-bold text-secondary">01</span>
+                            </div>
+                            <div class="ps-3">
+                                <h6>Professional & Expert</h6>
+                                <span>Precise, reliable programming and technical writing with strong expertise.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="d-flex">
+                            <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                <span class="fw-bold text-secondary">02</span>
+                            </div>
+                            <div class="ps-3">
+                                <h6>Quality Development & Editing</h6>
+                                <span>Your trusted center for quality servicing.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="d-flex">
+                            <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                <span class="fw-bold text-secondary">03</span>
+                            </div>
+                            <div class="ps-3">
+                                <h6>Hardworking Developer & Editor</h6>
+                                <span>Dedicated to delivering clean code and well-edited, high-quality documents.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Fact Start -->
+<div class="container-fluid fact bg-dark my-5 py-5" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/fact.jpg') center center / cover no-repeat;">
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                <i class="fa fa-check fa-2x text-white mb-3"></i>
+                <h2 class="text-white mb-2" data-toggle="counter-up">4</h2>
+                <p class="text-white mb-0">Years Experience</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                <i class="fa fa-users fa-2x text-white mb-3"></i>
+                <h2 class="text-white mb-2">
+                    <span data-toggle="counter-up">32</span>+
+                </h2>
+                <p class="text-white mb-0">Satisfied Clients</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                <i class="fa fa-tasks fa-2x text-white mb-3"></i>
+                <h2 class="text-white mb-2">
+                    <span data-toggle="counter-up">48</span>+
+                </h2>
+                <p class="text-white mb-0">Complete Projects</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Fact End -->
+
+
+    <!-- Service Start -->
+    <div id="services" class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">// My Services //</h6>
+                <h1 class="mb-5">Provide High-Quality Work</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <i class="fa fa-certificate fa-2x me-3"></i>
+                            <h4 class="m-0">Commission-Based</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <i class="fa fa-users-cog fa-2x me-3"></i>
+                            <h4 class="m-0">Web Development</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <i class="fa fa-pen-nib fa-2x me-3"></i>
+                            <h4 class="m-0">Thesis Editing</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <i class="fa fa-keyboard fa-2x me-3"></i>
+                            <h4 class="m-0">Data Entry</h4>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 390px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/comm.png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">4 Years Of Experience In Delivering Quality Service</h3>
+                                    <p class="mb-4">Delivering Innovative, Reliable, and High-Quality Digital Solutions with Professional Service, Client Satisfaction, and Creative Excellence.</p>
+                                   <p><i class="fa fa-check me-3" style="color:#000;"></i>Quality Servicing</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Expert Worker</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Modern Equipment</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Creative Solutions</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Reliable Support</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 390px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/webdev.png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">4 Years Of Experience In Delivering Quality Service</h3>
+                                    <p class="mb-4">Providing accurate thesis editing, proofreading, and content enhancement to ensure clarity, professionalism, and academic excellence.</p>
+                                    <p><i class="fa fa-check me-3" style="color:#000;"></i>Quality Servicing</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Expert Worker</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Modern Equipment</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Creative Solutions</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Reliable Support</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 390px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/thesis.png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">4 Years Of Experience In Delivering Quality Service</h3>
+                                    <p class="mb-4">Offering fast, organized, and detail-oriented data management services with accuracy, efficiency, and reliable results.</p>
+                                    <p><i class="fa fa-check me-3" style="color:#000;"></i>Quality Servicing</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Expert Worker</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Modern Equipment</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Creative Solutions</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Reliable Support</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 390px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/dataentry.png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">4 Years Of Experience In Delivering Quality Service</h3>
+                                    <p class="mb-4">Efficient oil change services to keep your engine running smoothly, improve performance, and extend vehicle life.</p>
+                                    <p><i class="fa fa-check me-3" style="color:#000;"></i>Quality Servicing</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Expert Worker</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Modern Equipment</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Creative Solutions</p>
+<p><i class="fa fa-check me-3" style="color:#000;"></i>Reliable Support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+<!-- Booking Start -->
+<div class="container-fluid booking my-5 wow fadeInUp" data-wow-delay="0.1s"
+    style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/book.png') center center / cover no-repeat; padding: 90px 0;">
+
+    <div class="container py-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+
+                <h1 class="text-white mb-4">
+                    Erika's Quality Commission-Based Services
+                </h1>
+
+                <p class="text-white fs-5 mb-5">
+                    I offer professional and effective digital solutions tailored to your needs.
+                    My services include web development, thesis editing, data entry,
+                    documentation assistance, and other commission-based projects.
+                    With strong attention to detail, technical expertise, and dedication
+                    to quality, I ensure every project is completed efficiently and professionally.
+                    Feel free to contact me anytime for academic, personal, or professional services.
+                </p>
+
+                <!-- SPACING ADDED HERE -->
+                <div style="margin-top: 5px;"></div>
+
+                <!-- TECH STACK START -->
+                <div class="tech-marquee">
+                    <div class="tech-track">
+
+                        <!-- FIRST SET -->
+                        <span class="tech-item"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="tech-item"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="tech-item"><i class="fas fa-wind"></i> Tailwind</span>
+
+                        <span class="tech-item"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tech-item"><i class="fab fa-php"></i> PHP</span>
+
+                        <span class="tech-item"><i class="fab fa-angular"></i> Angular</span>
+                        <span class="tech-item"><i class="fab fa-react"></i> React</span>
+
+                        <span class="tech-item"><i class="fab fa-java"></i> Java</span>
+                        <span class="tech-item"><i class="fab fa-python"></i> Python</span>
+
+                        <span class="tech-item"><i class="fas fa-code"></i> C#</span>
+                        <span class="tech-item"><i class="fas fa-code"></i> C++</span>
+
+                        <span class="tech-item"><i class="fas fa-file-code"></i> TypeScript</span>
+                        <span class="tech-item"><i class="fas fa-cube"></i> .NET</span>
+                        <span class="tech-item"><i class="fas fa-database"></i> MySQL</span>
+
+                        <span class="tech-item"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="tech-item"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="tech-item"><i class="fas fa-fire"></i> Firebase</span>
+                        <span class="tech-item"><i class="fab fa-git-alt"></i> Git / GitHub</span>
+
+                        <!-- DUPLICATE SET -->
+                        <span class="tech-item"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="tech-item"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="tech-item"><i class="fas fa-wind"></i> Tailwind</span>
+
+                        <span class="tech-item"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tech-item"><i class="fab fa-php"></i> PHP</span>
+
+                        <span class="tech-item"><i class="fab fa-angular"></i> Angular</span>
+                        <span class="tech-item"><i class="fab fa-react"></i> React</span>
+
+                        <span class="tech-item"><i class="fab fa-java"></i> Java</span>
+                        <span class="tech-item"><i class="fab fa-python"></i> Python</span>
+
+                        <span class="tech-item"><i class="fas fa-code"></i> C#</span>
+                        <span class="tech-item"><i class="fas fa-code"></i> C++</span>
+
+                        <span class="tech-item"><i class="fas fa-file-code"></i> TypeScript</span>
+                        <span class="tech-item"><i class="fas fa-cube"></i> .NET</span>
+                        <span class="tech-item"><i class="fas fa-database"></i> MySQL</span>
+
+                        <span class="tech-item"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="tech-item"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="tech-item"><i class="fas fa-fire"></i> Firebase</span>
+                        <span class="tech-item"><i class="fab fa-git-alt"></i> Git / GitHub</span>
+
+                    </div>
+                </div>
+                <!-- TECH STACK END -->
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- Booking End -->
+
+
+
+<!-- TECH STACK CSS -->
+<style>
+.tech-marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.tech-track {
+    display: inline-flex;
+    width: max-content;
+    animation: scrollLeft 25s linear infinite;
+}
+
+.tech-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 18px;
+    padding: 8px 14px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.tech-item i {
+    color: #ffffff;
+}
+
+.tech-item:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.05);
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+</style>
+
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Certificates Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+
+        <!-- Title -->
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-primary text-uppercase">// Credentials //</h6>
+            <h1 class="mb-5">Some of my Certificates</h1>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Certificate 1 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/itsn.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/itsn.png"
+                             alt="Certificate 1"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 1</h5>
+                        <small>IT Specialist in Networking</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/lss1.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/lss1.png"
+                             alt="Certificate 2"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 2</h5>
+                        <small>Lean Six Sigma White Belt</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/lss2.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/lss2.png"
+                             alt="Certificate 3"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 3</h5>
+                        <small>Lean Six Sigma Yellow Belt</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/n1.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/n1.png"
+                             alt="Certificate 4"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 4</h5>
+                        <small>Intro to Cybersecurity</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 5 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/n2.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/n2.png"
+                             alt="Certificate 5"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 5</h5>
+                        <small>Network Support and Security</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 6 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/ms1.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/ms1.png"
+                             alt="Certificate 6"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 6</h5>
+                        <small>Azure App Services</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 7 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/ms2.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/ms2.png"
+                             alt="Certificate 7"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 7</h5>
+                        <small>Azure Function Development</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 8 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/ms3.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/ms3.png"
+                             alt="Certificate 8"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 8</h5>
+                        <small>Intro to Quantum Computing with Azure</small>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certificate 9 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                <div class="certificate-item shadow rounded overflow-hidden">
+
+                    <a href="certificates/ms4.pdf" target="_blank" class="certificate-link">
+                        <img src="certificates/ms4.png"
+                             alt="Certificate 9"
+                             class="img-fluid w-100 certificate-img">
+                    </a>
+
+                    <div class="certificate-content text-center p-3">
+                        <h5 class="fw-bold mb-1">Certificate 9</h5>
+                        <small>Quantum Superposition with Q#</small>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Certificates End -->
+
+
+<!-- Custom CSS -->
+<style>
+
+    .certificate-item{
+        background: #ffffff;
+        transition: 0.4s;
+        border-radius: 15px;
+        max-width: 340px;
+        margin: auto;
+    }
+
+    .certificate-item:hover{
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .certificate-img{
+        height: 260px;
+        object-fit: cover;
+        transition: 0.4s;
+    }
+
+    .certificate-item:hover .certificate-img{
+        transform: scale(1.05);
+    }
+
+    .certificate-content{
+        background: #f8f9fa;
+    }
+
+    .certificate-content h5{
+        font-size: 18px;
+    }
+
+    .certificate-content small{
+        color: #6c757d;
+        font-size: 14px;
+    }
+
+    /* External Link Indicator */
+    .certificate-link{
+        position: relative;
+        display: block;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .certificate-link::after{
+        content: "\F1C5";
+        font-family: "bootstrap-icons";
+
+        position: absolute;
+        top: 12px;
+        right: 12px;
+
+        width: 40px;
+        height: 40px;
+
+        background: rgba(255,255,255,0.95);
+        color: #2f3640;
+
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 18px;
+
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+        transition: all 0.3s ease;
+    }
+
+    .certificate-link:hover::after{
+        transform: scale(1.1);
+        background: #ffffff;
+        color: #020686;
+    }
+.carousel-caption {
+    background: transparent !important;
+}
+
+.carousel-item img {
+    filter: brightness(1.1);
+}
+</style>
+
+
+
+    <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/secslider.png') center center / cover no-repeat;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sto. Tomas, Batangas</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+63 9053138528</p>
+                    <p class="mb-2">
+    <i class="fa fa-envelope me-3"></i>
+    <a href="mailto:baybayerikajoyce@gmail.com" class="text-white text-decoration-none">
+        baybayerikajoyce@gmail.com
+    </a>
+</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/share/18WZeeAoCx/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/erika-joyce-baybay-1b4a9a367?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/_eri.joyce?igsh=dGFuMWNiZTl5OXZ6"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Consultation Hours</h4>
+                    <h6 class="text-light">Monday - Saturday:</h6>
+                    <p class="mb-4">08:00 AM - 06:00 PM</p>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-cogs me-2"></i>
+                        <span>Commission-Based Services</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-wrench me-2"></i>
+                        <span>Web Development</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-circle me-2"></i>
+                        <span>Thesis Editing</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-oil-can me-2"></i>
+                        <span>Data Entry</span>
+                    </div>
+                </div>
+                
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Copyright</h4>
+                    <p>&copy; Erika's Portfolio. All rights reserved. Admin Eri</p>
+                </div>
+                
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
